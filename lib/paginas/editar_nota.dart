@@ -35,7 +35,7 @@ class _EditNoteScreenState extends State<EditNoteScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Editar Nota'),
+        title: Text('Actualizar Nota'),
         backgroundColor: Colors.pink.shade200,
       ),
       body: Padding(
@@ -57,7 +57,7 @@ class _EditNoteScreenState extends State<EditNoteScreen> {
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
                   ),
-                  labelText: 'Título de la Nota',
+                  labelText: 'Título de la nota',
                   labelStyle: TextStyle(color: Color.fromARGB(255, 80, 0, 150)),
                   focusedBorder: OutlineInputBorder(
                     borderSide: BorderSide(color: Color.fromARGB(209, 0, 95, 150)),
